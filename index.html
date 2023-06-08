@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rent a Car</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/73305de8fb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>search for a rental car</h1>
+      <div class="pick-up">
+        <label for="pick-up">pick up location</label>
+        <input
+          type="text"
+          id="pick-up"
+          placeholder="city, airport, region, district..."
+        />
+        <div class="deliver-car">
+          <input type="checkbox" id="yes" />
+          <label for="yes">deliver the car somewhere else</label>
+        </div>
+      </div>
+      <div class="pick-up-date">
+        <div class="first-div">
+          <h2>date of pick up</h2>
+          <div class="select-box">
+            <div>
+              <i class="fa-regular fa-calendar-days"></i>
+            </div>
+            <select id="select-date">
+              <option value="sat 26 mar 2022">sat 26 mar 2022</option>
+              <option value="fri 20 amy 2023">fri 20 amy 2023</option>
+              <option value="mon 6 jan 2023">mon 6 jan 2023</option>
+            </select>
+          </div>
+          <div>
+            <div class="select-box">
+              <div>
+                <i class="fa-regular fa-calendar-days"></i>
+              </div>
+              <select id="select-date divide">
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+              </select>
+              <span class="border"></span>
+              <select id="select-date ">
+                <option value="10">00</option>
+                <option value="20">10</option>
+                <option value="30">22</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="second-div">
+          <h2>date of delivery</h2>
+          <div class="select-box">
+            <div>
+              <i class="fa-regular fa-calendar-days"></i>
+            </div>
+            <select id="select-date">
+              <option value="sat 26 mar 2022">sat 26 mar 2022</option>
+              <option value="fri 20 amy 2023">fri 20 amy 2023</option>
+              <option value="mon 6 jan 2023">mon 6 jan 2023</option>
+            </select>
+          </div>
+          <div>
+            <div class="select-box">
+              <div>
+                <i class="fa-regular fa-calendar-days"></i>
+              </div>
+              <select id="select-date">
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+              </select>
+              <span class="border"></span>
+              <select id="select-date">
+                <option value="10">00</option>
+                <option value="20">10</option>
+                <option value="30">22</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="driver-age">
+        <input type="checkbox" />
+        <label>the driver's age between 30 to 65 ? </label>
+      </div>
+      <div class="check-mark">
+        <p><i class="fa-solid fa-check"></i>no credit card fees</p>
+        <p><i class="fa-solid fa-check"></i>no change fees</p>
+        <p><i class="fa-solid fa-check"></i>price match guarentee</p>
+      </div>
+      <button class="search">search</button>
+    </div>
+  </body>
+</html>
